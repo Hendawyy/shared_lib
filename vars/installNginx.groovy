@@ -1,3 +1,4 @@
+#1/usr/bon/env/groovy
 def call() {
     node {
         stage('Install Nginx') {
