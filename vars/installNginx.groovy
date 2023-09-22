@@ -10,7 +10,7 @@ def call() {
             }
             stage('Starting Server') {
                 steps {
-                    sh "sudo systemctl start --now nginx"
+                    sh "sudo systemctl start nginx"
                 }
             }
             stage('Test Nginx') {
